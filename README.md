@@ -1,16 +1,26 @@
-# rent_app
+# 🚗 RentApp - Car Rental App with OpenStreetMap Integration
 
-A new Flutter project.
+RentApp is a Flutter-based car rental application that helps users find, view, and rent vehicles. The app uses Firebase for backend services and integrates OpenStreetMap (OSM) for map-related functionalities instead of Google Maps.
 
-## Getting Started
+## ✨ Features
 
-This project is a starting point for a Flutter application.
+- 🔐 Firebase Authentication
+- 📍 OSM-based Map Integration using `flutter_map`
+- 🚘 View available car rentals on the map
+- 🗂️ Clean architecture with BLoC pattern
+- 📱 Beautiful and responsive UI
+- 💬 Dark mode support (optional)
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 🧰 Tech Stack
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- [Flutter](https://flutter.dev/)
+- [Firebase](https://firebase.google.com/)
+- [flutter_map](https://pub.dev/packages/flutter_map)
+- [latlong2](https://pub.dev/packages/latlong2)
+- [flutter_bloc](https://pub.dev/packages/flutter_bloc)
+
+## 🗺️ Map Integration
+
+This app uses **OpenStreetMap** tiles with the `flutter_map` package to display rental locations. Markers are used to represent cars available for rent.
+
